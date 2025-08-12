@@ -13,7 +13,7 @@ export default function RiodeJaneiro()
             </p>
 
             <p> 
-                <img src="" alt=""/> 
+                <img src="/RJ.png"/> 
             </p>
 
             <p> 
