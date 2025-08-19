@@ -17,6 +17,21 @@ import Rondonia from "./Paginas/Rondonia";
 import Roraima from "./Paginas/Roraima";
 import Tocantins from "./Paginas/Tocantins";
 
+import Alagoas from "./Paginas/Alagoas";
+import Bahia from "./Paginas/Bahia";
+import Ceara from "./Paginas/Ceara";
+import Maranhao from "./Paginas/Maranhao";
+import Paraiba from "./Paginas/Paraiba";
+import Pernambuco from "./Paginas/Pernambuco";
+import Piaui from "./Paginas/Piaui";
+import RioGrandeNorte from "./Paginas/RioGrandeNorte";
+import Sergipe from "./Paginas/Sergipe";
+
+import Goias from "./Paginas/Goias";
+import MatoGrosso from "./Paginas/MatoGrosso";
+import MatoGrossoSul from "./Paginas/MatoGrossoSul";
+import DistritoFederal from "./Paginas/DistritoFederal";
+
 import "./App.css";
 
 
@@ -42,6 +57,21 @@ export default function App()
             <Route path="/RO" element={<Rondonia /> } />
             <Route path="/RR" element={<Roraima /> } />
             <Route path="/TO" element={<Tocantins /> } />
+
+            <Route path="/AL" element={<Alagoas /> } />
+            <Route path="/BA" element={<Bahia /> } />
+            <Route path="/CE" element={<Ceara /> } />
+            <Route path="/MA" element={<Maranhao /> } />
+            <Route path="/PB" element={<Paraiba /> } />
+            <Route path="/PE" element={<Pernambuco/> } />
+            <Route path="/PI" element={<Piaui/> } />
+            <Route path="/RN" element={<RioGrandeNorte/> } />
+            <Route path="/SE" element={<Sergipe /> } />
+
+            <Route path="/GO" element={<Goias/> } />
+            <Route path="/MT" element={<MatoGrosso/> } />
+            <Route path="/MS" element={<MatoGrossoSul/> } />
+            <Route path="/DF" element={<DistritoFederal/> } />
 
          </Routes>
        </BrowserRouter>

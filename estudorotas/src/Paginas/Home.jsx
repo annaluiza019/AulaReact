@@ -4,18 +4,23 @@ export default function Home()
         <div>
             <h1>Estudo de Rotas</h1>
 
-            <h3>Estudo da Região Sudeste</h3>
-
             <ul> 
+
+                <h3>Estados da Região Sudeste</h3>
+
                 <li><a href="/sp"> São Paulo</a></li>
                 <li><a href="/RJ"> Rio de Janeiro</a></li>
                 <li><a href="/mg"> Minas Gerais</a></li>
                 <li><a href="/ES"> Espirito Santo</a></li>
 
+                <h3>Estados da Região Sul</h3>
+
                 <li><a href="/SC"> Santa Catarina</a></li>
                 <li><a href="/PR"> Paraná</a></li>
                 <li><a href="/RS"> Rio grande do sul</a></li>
-
+            
+                <h3>Estados da Região Norte</h3>
+                
                 <li><a href="/AC"> Acre</a></li>
                 <li><a href="/AP"> Amapá</a></li>
                 <li><a href="/AM"> Amazonas</a></li>
@@ -23,6 +28,25 @@ export default function Home()
                 <li><a href="/RO"> Rondônia</a></li>
                 <li><a href="/RR"> Roraima</a></li>
                 <li><a href="/TO"> Tocantins</a></li>
+
+                <h3>Estados da Região Nordeste</h3>
+
+                <li><a href="/AL"> Alagoas</a></li>
+                <li><a href="/BA"> Bahia</a></li>
+                <li><a href="/CE"> Ceará </a></li>
+                <li><a href="/MA"> Maranhão</a></li>
+                <li><a href="/PB"> Paraíba</a></li>
+                <li><a href="/PE"> Pernambuco</a></li>
+                <li><a href="/PI"> Piauí</a></li>
+                <li><a href="/RN"> Rio Grande do Norte</a></li>
+                <li><a href="/SE"> Sergipe</a></li>
+
+                <h3>Estados da Região Centro-oeste</h3>
+
+                <li><a href="/GO"> Goiás</a></li>
+                <li><a href="/MT"> Mato Grosso</a></li>
+                <li><a href="/MS"> Mato Grosso do Sul</a></li>
+                <li><a href="/DF"> Distrito Federal</a></li>
             </ul>
         </div>
     )
