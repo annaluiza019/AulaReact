@@ -1,0 +1,33 @@
+body 
+{
+    margin : 0;
+    padding: 0;
+}
+
+h1
+{
+    background-color: rgb(251, 255, 0);
+    color: rgb(0, 0, 0); 
+
+    margin: 0;
+    padding: 30px; 
+
+    text-align: center;
+}
+
+a
+{
+  color: rgb(255, 0, 0);    
+}
+
+img
+{
+    width: 300px;
+
+}
+
+p
+{
+    color:rgb(255, 0, 0);
+}
+h3
