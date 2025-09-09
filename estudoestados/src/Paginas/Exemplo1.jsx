@@ -5,7 +5,7 @@ export default function Exemplo1() {
 
       <div className="conteudo">
         
-        <h3> Exemplo de uso do useState</h3>
+        <h3> Exemplo de uso do useState 🎀</h3>
 
           <p>
             O objetivo será somar dois números e exibir o resultado na tela
@@ -23,10 +23,14 @@ export default function Exemplo1() {
             </p>
 
             <p>
-              <input type="button" value="Calcular" />
+              <input type="button" value="Calcular 💕" />
             </p>
-            </form>
 
+            <p> 
+              <a href="/"> voltar </a>
+            </p>
+
+       </form>
      </div>
     </div >
   );
