@@ -1,5 +1,19 @@
+import { useState } from "react";
 export default function Exercicio4 ()
 { 
+    const[base, setBase] = useState(0);
+    const[altura, setAltura] = useState(0);
+    const[resultado, setResultado] = useState(0);
+
+    function calcular()
+    {
+      let area;
+
+      area = (Number(base) * Number(altura)) / 2;
+
+      setResultado("Valor área: " + area );
+    }
+
     return (
         <div> 
             <h1> Exercício 4 </h1>
@@ -10,15 +24,23 @@ export default function Exercicio4 ()
 
         <form> 
             <p> Digite o valor da base: <br />
-               <input type= "text" /> 
+               <input type= "text" value={base} onChange={(e) => setBase(e.target.value)}/> 
             </p>
 
             <p> Digite o valor da altura: <br />
-               <input type= "text" /> 
+               <input type= "text" value={altura} onChange={(e) => setAltura(e.target.value)}/> 
             </p>
     
             <p> 
-                <input type="button" value= "Exercício 4 💕" /> 
+                <input type="button" value= "Exercício 4 💕" onClick={calcular} /> 
+            </p>
+
+            <p> 
+                <b>Resultado</b>
+                <br/> 
+                Valor base é {base} <br/> 
+                Valor altura é {altura} <br/> 
+                Resuldado é {resultado} 
             </p>
 
             <p> 
